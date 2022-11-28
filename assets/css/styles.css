@@ -335,7 +335,13 @@ body {
     }
 }
 
-@media (max-height: 450px) and (min-width: 800px){
+@media (max-height: 600px) {
+    body {
+        height: auto;
+    }
+}
+
+    @media (max-height: 450px) and (min-width: 800px){
     .section {
         justify-content: space-around;
     }
