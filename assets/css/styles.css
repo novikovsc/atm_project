@@ -318,3 +318,59 @@ body {
         margin-top: 5px;
     }
 }
+
+@media (max-height: 450px) and (min-width: 800px){
+    .section {
+        justify-content: space-around;
+    }
+
+    .section__img {
+        width: 60%;
+    }
+
+    .header__avatar {
+        font-size: 24px;
+    }
+
+    .object__name {
+        font-size: 14px;
+    }
+
+    .geolocation {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+
+    .nav__control {
+        margin-top: 5px;
+    }
+
+    .control__title {
+        font-size: 10px;
+    }
+
+    .battery {
+        margin-top: 5px;
+    }
+
+    .nav__button {
+        margin-bottom: 20px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .nav__button--bottom, .nav__button--left {
+        margin-bottom: 5px;
+    }
+
+    .battery__title {
+        font-size: 8px;
+    }
+
+    .control__btn {
+        font-size: 10px;
+        width: 70px;
+        height: 30px;
+    }
+}
