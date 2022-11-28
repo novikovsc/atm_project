@@ -149,6 +149,14 @@ body {
     fill: #03A400;
 }
 
+.rotate {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
 
 @media (max-width: 1900px) {
 
@@ -380,5 +388,15 @@ body {
         font-size: 10px;
         width: 70px;
         height: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        display: none;
+    }
+
+    .rotate {
+        display: block;
     }
 }
